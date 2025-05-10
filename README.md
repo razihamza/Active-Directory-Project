@@ -1,6 +1,4 @@
-# Active-Directory-Project
-
-# 🛡️ Active Directory Home Lab
+# Active Directory Project
 
 A fully functional Active Directory lab environment built and configured for cybersecurity learning, monitoring, and attack simulation, inspired by [MyDFIR's YouTube series](https://www.youtube.com/@MyDFIR). This hands-on project was designed to emulate a realistic enterprise setup and enhance blue team skills using open-source tools and virtual machines.
 
@@ -16,9 +14,10 @@ This project simulates a small corporate environment with:
 
 The lab was built entirely using **VirtualBox** and configured to operate on a **NAT network** (`192.168.0.0/24`).
 
+![Active Directory Users](./screenshots/Active-Directory-Project.png)
 ---
 
-## 🧰 Tools and Technologies
+##  Tools and Technologies
 
 | Technology     | Purpose                              |
 |----------------|--------------------------------------|
@@ -55,31 +54,15 @@ The lab was built entirely using **VirtualBox** and configured to operate on a *
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 Here are some visuals from the lab environment:
 
-- ![Active Directory Users](./screenshots/AD-Users.png)
+- ![Active Directory Users](./screenshots/Active-Directory-Project.png1)
 - ![Splunk Dashboard](./screenshots/Splunk-Dashboard.png)
 - ![Kali Linux Attack Simulation](./screenshots/Attack-Simulation.png)
+- ![Network Configuration in VirtualBox](./screenshots/Attack-Simulation.png)
 
 These screenshots demonstrate domain setup, log ingestion, and simulated attack detection.
 
 ---
-
-
-## 📂 File Structure
-
-```bash
-.
-├── setup/
-│   ├── AD_Configuration.md
-│   ├── Sysmon_Config.xml
-│   └── Splunk_Inputs.conf
-├── screenshots/
-│   ├── AD-Users.png
-│   ├── Splunk-Dashboard.png
-│   └── Attack-Simulation.png
-├── AtomicTests/
-│   └── Sample-Test-Results.md
-├── README.md
